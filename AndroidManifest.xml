@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.register"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/e"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.register.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.register.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.register.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.register.ForgetActivity"
+            android:label="@string/title_activity_forget" >
+        </activity>
+        <activity
+            android:name="com.example.register.PresentationActivity"
+            android:label="@string/title_activity_presentation" >
+        </activity>
+        <activity
+            android:name="com.example.register.DestroyActivity"
+            android:label="@string/title_activity_destroy" >
+        </activity>
+        <activity
+            android:name="com.example.register.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.example.register.Home2Activity"
+            android:label="@string/title_activity_home2" >
+        </activity>
+        <activity
+            android:name="com.example.register.Home3Activity"
+            android:label="@string/title_activity_home3" >
+        </activity>
+        <activity
+            android:name="com.example.register.Home4Activity"
+            android:label="@string/title_activity_home4" >
+        </activity>
+        <activity
+            android:name="com.example.register.Home5Activity"
+            android:label="@string/title_activity_home5" >
+        </activity>
+        <activity
+            android:name="com.example.register.LogActivity"
+            android:label="@string/title_activity_log" >
+        </activity>
+        <activity
+            android:name="com.example.register.Home6Activity"
+            android:label="@string/title_activity_home6" >
+        </activity>
+    </application>
+
+</manifest>

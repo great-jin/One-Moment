@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户名" />
+    
+	<EditText 
+	    android:id="@+id/de_name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="请输入用户名"/>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="密码" />
+    
+	<EditText 
+	    android:id="@+id/de_password2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="请输入密码"
+	    android:inputType="numberPassword"/>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认密码" />
+    
+	<EditText 
+	    android:id="@+id/de_password3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="请再次输入密码"
+	    android:inputType="numberPassword"/>
+	
+	<Button 
+	    android:id="@+id/de_ok"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="注销"/>
+  
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+
+	 <Button
+	     android:id="@+id/m_login"
+	     android:layout_width="200dp"
+	     android:layout_height="wrap_content"
+	     android:layout_above="@+id/m_register"
+	     android:layout_centerHorizontal="true"
+	     android:text="登录"
+	     android:textColor="#1C82D5" />
+
+	 <Button
+	     android:id="@+id/m_register"
+	     android:layout_width="200sp"
+	     android:layout_height="wrap_content"
+	     android:layout_alignLeft="@+id/m_login"
+	     android:layout_alignParentBottom="true"
+	     android:layout_marginBottom="42dp"
+	     android:text="注册"
+	     android:textColor="#1C82D5" />
+
+	 <TextView
+	     android:id="@+id/presentation"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentBottom="true"
+	     android:layout_centerHorizontal="true"
+	     android:text="功能介绍"
+	     android:textColor="#0222ff" />
+
+</RelativeLayout>

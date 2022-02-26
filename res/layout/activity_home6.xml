@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeActivity" >
+
+   <EditText
+       android:id="@+id/m_input"
+       android:layout_width="match_parent"
+       android:layout_height="300dp"
+       android:hint="输入信息" />
+
+	<Button
+	    android:id="@+id/m_output"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignLeft="@+id/m_input"
+	    android:layout_alignParentBottom="true"
+	    android:text="输出" />
+
+	<Button
+	    android:id="@+id/m_ok"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/m_output"
+	    android:layout_alignLeft="@+id/m_output"
+	    android:text="保存" />
+
+</RelativeLayout>
